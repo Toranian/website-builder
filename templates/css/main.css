@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Nunito:wght@300;400;700&display=swap");
+* {
+  margin: none;
+  padding: none;
+}
+
+:root {
+  --primary-bg: #263238;
+  --secondary-bg: #37474F;
+  --accent: #fff;
+  --accent-muted: #fafafa;
+  --primary-text: #fff;
+  --secondary-text: #757575;
+  --border-radius-small: 5px;
+}
+
+.action-button {
+  background: var(--accent);
+  border: none;
+  border-radius: var(--border-radius-small);
+  color: var(--primary-bg);
+  cursor: pointer;
+}
+.action-button:hover {
+  background: var(--accent-muted);
+  color: var(--primary-bg);
+}
+
+/*# sourceMappingURL=main.css.map */
